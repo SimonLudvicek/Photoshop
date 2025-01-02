@@ -14,7 +14,7 @@ Jednoduchý a efektivní program v jazyce C pro práci s TGA obrázky, který po
 4. [Instalace](#instalace)
 5. [Použití](#použití)
 6. [Příklady příkazů](#příklady-příkazů)
-7. [Autoři](#autoři)
+7. [Autor](#autor)
 
 ---
 
