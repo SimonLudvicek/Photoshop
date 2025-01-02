@@ -132,7 +132,7 @@ sudo apt install build-essential
 ## **Autor**
 
 - **Šimon Ludvíček LUD0046**  
-  GitHub: [Můj Github](https://github.com/vas-repozitar)
+  GitHub: [Můj Github](https://github.com/SimonLudvicek/Photoshop.git)
 
   
 
