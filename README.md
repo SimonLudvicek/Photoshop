@@ -18,7 +18,7 @@ Jednoduchý a efektivní program v jazyce C pro práci s TGA obrázky, který po
 
 ---
 
-## **Popis projektu**+
+## **Popis projektu**
 
 Tento projekt implementuje jednoduchou verzi Photoshopu pro práci s obrázky ve formátu TGA. Program je napsán v jazyce C a umožňuje provádět různé operace na rastrových obrázcích, jako je změna velikosti, oříznutí, kopírování pixelů nebo převod na stupně šedi.
 
