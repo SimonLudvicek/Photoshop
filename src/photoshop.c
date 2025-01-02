@@ -32,7 +32,7 @@ Pixel* load_pixels(const TGAHeader* header, const char* file_path) {
     memcpy(&width, header->width, 2);
     memcpy(&height, header->height, 2);
 
-    size_t pixel_count = width * height;  // Změněno na size_t
+    size_t pixel_count = width * height;  
 
     Pixel* pixels = (Pixel*)malloc(sizeof(Pixel) * pixel_count);
     if (pixels == NULL) {
@@ -49,7 +49,7 @@ Pixel* load_pixels(const TGAHeader* header, const char* file_path) {
 
     fseek(file, sizeof(TGAHeader), SEEK_SET);
 
-    if (fread(pixels, sizeof(Pixel), pixel_count, file) != pixel_count) {  // Porovnání size_t
+    if (fread(pixels, sizeof(Pixel), pixel_count, file) != pixel_count) {  
         fprintf(stderr, "Chyba: Selhalo načtení pixelových dat.\n");
         fclose(file);
         free(pixels);

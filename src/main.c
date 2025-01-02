@@ -3,7 +3,7 @@
 #include <string.h>
 #include "photoshop.h"
 
-// Barvy pro výstupy
+
 #define RESET "\033[0m"
 #define RED "\033[31m"
 #define GREEN "\033[32m"
@@ -77,7 +77,7 @@ int main(int argc, char* argv[]) {
             break;
         }
 
-        // Nahrazení čárek za mezery
+        
         for (char* ptr = command; *ptr; ptr++) {
             if (*ptr == ',') *ptr = ' ';
         }
