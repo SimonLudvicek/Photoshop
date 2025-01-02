@@ -61,8 +61,8 @@ sudo apt install build-essential
 
 1. **Klonování repozitáře:**
    ```bash
-   git clone https://github.com/vas-repozitar/photoshop-c.git
-   cd photoshop-c
+   git clone https://github.com/SimonLudvicek/Photoshop.git
+   cd Photoshop
    ```
 
 2. **Překlad programu pomocí `make`:**
